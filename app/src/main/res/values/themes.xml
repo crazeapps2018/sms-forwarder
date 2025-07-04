@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SMSForwarder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <!-- Customize your app theme here -->
+    <item name="colorPrimary">@color/material_dynamic_neutral40</item>
+    <item name="android:statusBarColor">@color/black</item>
+</style>
+
+    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
+        <!-- Set your splash screen background -->
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <!-- Optional: splash screen icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.SMSForwarder</item>
+    </style>
+
+
+</resources>
