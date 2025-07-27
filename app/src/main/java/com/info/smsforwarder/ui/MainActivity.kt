@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.info.smsforwarder.databinding.ActivityMainBinding
 import com.info.smsforwarder.databinding.ListItemSmsBinding
-import com.info.smsforwarder.R
 
 data class SmsItem(
     val name: String,
