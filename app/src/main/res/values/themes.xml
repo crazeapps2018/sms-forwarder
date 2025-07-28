@@ -3,7 +3,7 @@
 
     <style name="Theme.SMSForwarder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
     <!-- Customize your app theme here -->
-    <item name="colorPrimary">@color/material_dynamic_neutral40</item>
+        <item name="colorPrimary">@color/purple_500</item>
     <item name="android:statusBarColor">@color/black</item>
 </style>
 

@@ -41,7 +41,7 @@ class LoginActivity : ComponentActivity() {
 
 
 
-            binding.buttonLogin.setOnClickListener {
+        binding.buttonLogin.setOnClickListener {
                 val mobileNumber = binding.editTextMobile.text.toString().trim()
 
                 if (mobileNumber.isEmpty()) {
